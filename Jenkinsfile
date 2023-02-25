@@ -1,4 +1,3 @@
-# Sample Pipeline Script:
 pipeline {
     agent { label 'slave1' }
 
