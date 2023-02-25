@@ -19,7 +19,7 @@ pipeline {
       dir('.'){
                     script{
                         dockerImage = docker.build("ABCtech")
-                    }
+                    
       }
     }
   }
